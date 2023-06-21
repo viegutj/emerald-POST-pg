@@ -1,0 +1,92 @@
+body {
+    margin: 50px;
+    background: linear-gradient(to right, #fbc2eb, #a18cd1);
+    color: #605c3c;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainContainer {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(88, 50, 41);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header {
+    background-image: url(../images/headerBG.png);
+    border-radius: 10px;
+}
+
+#addPlayer label {
+    display: block;
+    font-size: .8em;
+    margin-top: 20px;
+    display: inline;
+    color: #571d26;
+}
+
+#addPlayer input {
+    width: 15%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    display: inline;
+    background: #f7ebec;
+    color: #815555;
+}
+
+#submit-button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff758c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+#submit-button:hover {
+    background: #a18cd1;
+}
+
+#tableWrapper {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+#tableWrapper th,
+#tableWrapper td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#tableWrapper th {
+    background: #ff758c;
+    color: #fff;
+}
+
+#songsTableBody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#songsTableBody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
